@@ -37,20 +37,16 @@ Then go visit http://localhost:8000
 ## Project structure
 ```
 .
-├── logs
-├── node_modules
+├── logs // where logs get stored
 ├── public
-│   ├── lib
-│   │   ├── spectre.min.css
-|   │   └── vue.min.js
-│   ├── domhelpers.js
+│   ├── domhelpers.js // for DOM manipulation, mimics jQuery
 │   ├── index.html
 │   └── index.js
 ├── server
-│   ├── dbManager.js
-│   ├── logger.js
-│   └── server.js
-└── tests
+│   ├── dbManager.js // interacting with MongoDB
+│   ├── logger.js // simple logging functionality
+│   └── server.js // main Express server
+└── tests // put tests in here
 ```
 
 ## Dev
@@ -58,9 +54,6 @@ Code linting with [AirBnB's style guide](https://github.com/airbnb/javascript):
 ```
 $ npm run lint
 ```
-
-**TODOS:**
-use Sass w/ node-sass-middleware, or similar
 
 ## License
 
