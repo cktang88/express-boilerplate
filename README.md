@@ -18,7 +18,6 @@ Then go visit http://localhost:8000
 ### Back-end
 * [x] **[Express](https://github.com/expressjs/express)** - Web framework for Node.js
 * [x] **[MongoDB](https://github.com/mongodb/node-mongodb-native)** - Database for fast prototyping
-* [x] [node-dev](https://github.com/fgnass/node-dev) - Automatic server reload, more lightweight than `nodemon`
 * [x] [Bunyan](https://github.com/trentm/node-bunyan) - Easy JSON logging.
 
 ### Front-end
@@ -26,11 +25,12 @@ Then go visit http://localhost:8000
 * [x] [Spectre.css](https://picturepan2.github.io/spectre/index.html) - lightweight CSS-only framework that uses native HTML tags. A third the size of Bulma.css, a quarter the size of Bootstrap css.
 ### Extra
 * [x] [Eslint](http://eslint.org/) - Javascript linting
-* [x] [node-fetch](https://github.com/bitinn/node-fetch) - server-side HTTP requests using browser `window.fetch()` api, < half MB (much more lightweight than Request)
+* [x] [node-fetch](https://github.com/bitinn/node-fetch) - server-side HTTP requests using browser `window.fetch()` api
 * [x] Security via [CORS](https://github.com/expressjs/cors) and [Helmet.js](https://helmetjs.github.io/)
+* [x] [node-dev](https://github.com/fgnass/node-dev) - Automatic server reload
 
-## Guiding philosophy
-1. **Fast prototyping** - get up and running immediately.
+## Philosophy
+1. **Fast** - get up and running immediately.
 2. **Simple, zero-config** - no need to manually set up config files.
 3. **Lightweight, no module bloat** - total node_modules size is just 20MB.
 
