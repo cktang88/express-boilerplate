@@ -1,6 +1,8 @@
 
 # Express-Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cktang88/express-boilerplate.svg)](https://greenkeeper.io/)
+
 A fast :fast_forward:, simple **Node.js/Express** + **MongoDB** + **Vue.js** web app boilerplate project. This template provides a set of best-practice setups and avoids common mistakes. Hopefully useful for hackathons... :pray: :zap: 
 
 ## Quickstart
